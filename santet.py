@@ -57,11 +57,11 @@ for o in titik:
     time.sleep(9)
     print("\x1b[1;90mSelamat Korban Sekarang sudah gila!\x1b[1;91mHati-hati ada hukum karma !!!")
 def keluar():
-    os.system('clear')
+	os.system('clear')
 	print("\x1b[1;95mBAGOES ANDA TAKUT DOSA!!!")
 	sys.out.exit()
 	def dosa():
-        os.system('clear')
+		os.system('clear')
 		print("Kenapa Anda ingin menghapus Dosa?")
 		dosa=raw_input()
 		print("Anda Yakin ?[Y/N]")
@@ -117,7 +117,7 @@ def mulai():
     			mulai=raw_input()
     			mulai()
 def menu():
-    os.system('clear')
+	os.system('clear')
 	print('1. Santet Online\n2. Hapus Dosa\n3. Keluar')
 	pilih=raw_input()
 	if pilih=='01' or pilih=='1':
