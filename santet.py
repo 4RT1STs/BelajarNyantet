@@ -18,7 +18,7 @@ if y=='Y' or y=='y':
 else:
     keluar()
 def santet():
-    os.system('clear')
+	os.system('clear')
 	print("Nama Korban:")
 	nama=raw_input()
 	print("Usia Korban")
