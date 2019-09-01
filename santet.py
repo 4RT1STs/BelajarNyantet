@@ -21,8 +21,6 @@ def santet():
 	print(" alasan Kenapa Lo Santet dia: ")
 	alasan=raw_input()
 	time.sleep(5)
-	titik = ['.   ', '..  ', '... ']
-for o in titik:
 	print (" \x1b[1;91m[\xe2\x97\x8f] \x1b[1;92m[!]Semoga Hari mu baik-baik saja \x1b[1;97m ")
 	time.sleep(1)
 	print(" \x1b[1;97m[!]\x1b[1;92mIBLIS MENUJU KORBAN!!! ")
