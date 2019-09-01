@@ -103,10 +103,10 @@ def mulai():
 		time.sleep(4)
 		print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
 		mulai()
-		else:
-			time.sleep(3)
-			print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\n')
-			mulai()
+	else:
+		time.sleep(3)
+		print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\n')
+		mulai()
 def menu():
 	os.system('clear')
 	print(banner)
