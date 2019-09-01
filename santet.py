@@ -60,8 +60,6 @@ def dosa():
     time.sleep(5)
     print(" Nama: ")
     nama=raw_input()
-   	print(" umur: ")
-    umur=raw_input()
     print(" Status: ")
     status=raw_input("1. Jomblo\n2. Nikah/Pacar\n3. Ga punya Status")
     if status=='01' or status=='1':
