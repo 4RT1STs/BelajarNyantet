@@ -48,9 +48,10 @@ for o in titik:
     print(" \x1b[1;99m100% ")
     time.sleep(9)
     print(" \x1b[1;90mSelamat Korban Sekarang sudah gila!\x1b[1;91mHati-hati ada hukum karma !!! ")
+    menu()
 def keluar():
     os.system('clear')
-    print(" \x1b[1;95mBAGOES ANDA TAKUT DOSA!!! ")
+    print(" \x1b[1;95m[!]\x1b[1;90mTERIMA KASIH TELAH MENGGUNAKAN TOOLS INI!!! ")
     sys.out.exit()
 def dosa(): 
     os.system('clear')
@@ -100,8 +101,10 @@ def mulai():
     time.sleep(3)
     print('\x1b[1;90m[+]\x1b[1;91mSelamat Dosa Anda Telah terhapus!!')
     menu()
+    elif yakin=='N' or yakin=='n':
+    	menu()
     else:
-        menu()
+    	menu()
         elif status=='02' or status=='2':
             time.sleep(4)
             print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
@@ -110,9 +113,6 @@ def mulai():
             time.sleep(3)
             print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\n')
             mulai()
-
-
-
 def menu():
     os.system('clear')
     print(banner)
