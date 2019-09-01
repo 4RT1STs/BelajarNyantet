@@ -114,7 +114,7 @@ def menu():
 	pilih=raw_input()
 	if pilih=='01' or pilih=='1':
 		santet()
-		elif pilih=='02' or pilih=='2':
+	elif pilih=='02' or pilih=='2':
 		dosa()
-		else:
-			keluar()
+	else:
+		keluar()
