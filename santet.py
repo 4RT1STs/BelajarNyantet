@@ -99,7 +99,7 @@ def mulai():
     menu()
 	elif status=='02' or status=='2':
 		time.sleep(4)
-        print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
+        	print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
         mulai()
     else:
     	time.sleep(3)
