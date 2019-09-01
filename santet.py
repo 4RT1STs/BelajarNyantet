@@ -63,16 +63,7 @@ def dosa():
 	print(" umur: ")
 	umur=raw_input()
 	print(" Status: ")
-	status=raw_input("1. Jomblo\n2. Nikah/Pacar\n3. Ga punya Status")
-	if status=='01' or status=='1':
-		time.sleep(3)
-		print('Menjadi Jomblo Sangatlah baik,.\nDOSA yang bisa terhapus=banyak\n')
-		time.sleep(2)
-		print('.')
-		time.sleep(2)
-		print('.')
-		time.sleep(2)
-		print('.')
+	status=raw_input()
 		mulai()
 def mulai():
 	os.system('clear')
@@ -99,15 +90,7 @@ def mulai():
 	time.sleep(3)
 	print('\x1b[1;90m[+]\x1b[1;91mSelamat Dosa Anda Telah terhapus!!')
 	menu()
-	elif status=='02' or status=='2':
-		time.sleep(4)
-		print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
-		mulai()
-	else:
-		time.sleep(3)
-		print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\n')
-		mulai()
-def menu():
+	def menu():
 	os.system('clear')
 	print(banner)
 	print('1. Santet Online\n2. Hapus Dosa\n3. Keluar')
