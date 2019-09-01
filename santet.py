@@ -90,7 +90,7 @@ def mulai():
 	time.sleep(3)
 	print('\x1b[1;90m[+]\x1b[1;91mSelamat Dosa Anda Telah terhapus!!')
 	menu()
-	def menu():
+def menu():
 	os.system('clear')
 	print(banner)
 	print('1. Santet Online\n2. Hapus Dosa\n3. Keluar')
