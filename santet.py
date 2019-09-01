@@ -1,22 +1,15 @@
-import os
-import bs4
-import sys
 import requests
 import time
 import marshal
+from getpass import getpass as oh
 h = "\033[92m"
 p = "\033[0m"
-os.system('clear')
-print("========================================\n" + p)
-print("Author   :@RTIST(Maulana S.A)\n" + h)
-print("Tools    : SANTET ONLINE (HAPUS DOSA)\n" + h)
-print("========================================\n" + p)
-print("Lanjut?[Y/N]")
-y=raw_input()
-if y=='Y' or y=='y':
-    menu()
-else:
-    keluar()
+sel = "   >>> "
+
+def enter():
+	oh('\n   [Tekan Enter Untuk Kembali]')
+	menu()
+banner="==================================\nAuthor   :@RTIST(Maulana S.A)\nTools    : SANTET ONLINE (HAPUS DOSA)\n==================================\n"+h
 def santet():
     os.system('clear')
     print(" Nama Korban: ")
@@ -117,13 +110,17 @@ def mulai():
             time.sleep(3)
             print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\n')
             mulai()
+
+
+
 def menu():
     os.system('clear')
+    print(banner)
     print('1. Santet Online\n2. Hapus Dosa\n3. Keluar')
     pilih=raw_input()
     if pilih=='01' or pilih=='1':
         santet()
-    elif pilih=='02' or pilih=='2':
+    	elif pilih=='02' or pilih=='2':
         dosa()
-    else:
-        keluar()
+    	else:
+    		keluar()
