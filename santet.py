@@ -99,10 +99,10 @@ def mulai():
 	time.sleep(3)
 	print('\x1b[1;90m[+]\x1b[1;91mSelamat Dosa Anda Telah terhapus!!')
 	menu()
-		elif status=='02' or status=='2':
-			time.sleep(4)
-			print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
-			mulai()
+	elif status=='02' or status=='2':
+		time.sleep(4)
+		print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\n')
+		mulai()
 		else:
 			time.sleep(3)
 			print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\n')
