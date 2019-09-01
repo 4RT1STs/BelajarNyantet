@@ -66,15 +66,15 @@ def dosa():
     print("Anda Yakin ?[Y/N]")
     yakin=raw_input()
     if yakin=='Y' or yakin=='y':
-    print(" Nama: ")
-    nama=raw_input()
-    print(" umur: ")
-    umur=raw_input()
-    print(" Status: ")
-    status=raw_input("1. Jomblo\n2. Nikah/Pacar\n3. Ga punya Status")
-    if status=='01' or status=='1':
-        print('Menjadi Jomblo Sangatlah baik,.\nDOSA yang bisa terhapus=banyak\nMulai Menghapus?[Y/N]')
-        mulai=raw_input()
+        print(" Nama: ")
+        nama=raw_input()
+        print(" umur: ")
+        umur=raw_input()
+        print(" Status: ")
+        status=raw_input("1. Jomblo\n2. Nikah/Pacar\n3. Ga punya Status")
+        if status=='01' or status=='1':
+            print('Menjadi Jomblo Sangatlah baik,.\nDOSA yang bisa terhapus=banyak\nMulai Menghapus?[Y/N]')
+            mulai=raw_input()
 def mulai():
     os.system('clear')
     if mulai=='Y' or mulai=='y':
@@ -105,16 +105,16 @@ def mulai():
         menu()
     else:
         menu()
-    elif status=='02' or status=='2':
-        time.sleep(4)
-        print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\nMulai Menghapus?[Y/N]')
-        mulai=raw_input()
-        mulai()
-    else:
-        time.sleep(3)
-        print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\nMulai Menghapus?[Y/N]')
-        mulai=raw_input()
-        mulai()
+        elif status=='02' or status=='2':
+            time.sleep(4)
+            print('Ciee Selamat ya!!! Mimin Masi Jomblo nich:(..\nDosa yang bisa terhapus=lumayan\nMulai Menghapus?[Y/N]')
+            mulai=raw_input()
+            mulai()
+        else:
+            time.sleep(3)
+            print('Sedih nya Ga punya Status:( Ga usah idup woe !!!\nDosa yang bisa terhapus=sedikit\nMulai Menghapus?[Y/N]')
+            mulai=raw_input()
+            mulai()
 def menu():
     os.system('clear')
     print('1. Santet Online\n2. Hapus Dosa\n3. Keluar')
@@ -124,4 +124,4 @@ def menu():
     elif pilih=='02' or pilih=='2':
         dosa()
     else:
-        keluar() 
+        keluar()
