@@ -64,7 +64,7 @@ def dosa():
 	umur=raw_input()
 	print(" Status: ")
 	status=raw_input()
-		mulai()
+	mulai()
 def mulai():
 	os.system('clear')
 	time.sleep(3)
