@@ -21,6 +21,8 @@ def santet():
 	print(" alasan Kenapa Lo Santet dia: ")
 	alasan=raw_input()
 	time.sleep(5)
+	titik = ['.   ', '..  ', '... ']
+for o in titik:
 	print (" \x1b[1;91m[\xe2\x97\x8f] \x1b[1;92m[!]Semoga Hari mu baik-baik saja \x1b[1;97m ")
 	time.sleep(1)
 	print(" \x1b[1;97m[!]\x1b[1;92mIBLIS MENUJU KORBAN!!! ")
@@ -46,7 +48,7 @@ def santet():
 	print(" \x1b[1;99m100% ")
 	time.sleep(9)
 	print(" \x1b[1;90mSelamat Korban Sekarang sudah gila!\x1b[1;91mHati-hati ada hukum karma !!! ")
-	menu()
+	enter()
 def keluar():
 	os.system('clear')
 	print(" \x1b[1;95m[!]\x1b[1;90mTERIMA KASIH TELAH MENGGUNAKAN TOOLS INI!!! ")
@@ -87,7 +89,7 @@ def mulai():
 	print('\x1b[1;99m100%')
 	time.sleep(3)
 	print('\x1b[1;90m[+]\x1b[1;91mSelamat Dosa Anda Telah terhapus!!')
-	menu()
+	enter()
 def menu():
 	os.system('clear')
 	print(banner)
