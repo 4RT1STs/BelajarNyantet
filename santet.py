@@ -54,7 +54,7 @@ def keluar():
 def dosa(): 
 	os.system('clear')
 	print("Kenapa Anda ingin menghapus Dosa?")
-	dosa=raw_input()
+	pilih = int(input(sel))
 	time.sleep(5)
 	print(" Nama: ")
 	nama=raw_input()
@@ -92,7 +92,7 @@ def menu():
 	os.system('clear')
 	print(banner)
 	print('1. Santet Online\n2. Hapus Dosa\n3. Keluar')
-	pilih=raw_input()
+	pilih = int(input(sel))
 	if pilih=='01' or pilih=='1':
 		santet()
 	elif pilih=='02' or pilih=='2':
