@@ -13,13 +13,13 @@ def enter():
 banner="==================================\nAuthor   :@RTIST(Maulana S.A)\nTools    : SANTET ONLINE (HAPUS DOSA)\n==================================\n"+h
 def santet():
 	os.system('clear')
-	print(" Usia Korban: ")
+	print" Usia Korban: "
 	usia=raw_input()
-	print(" Nama Korban: ")
+	print" Nama Korban: "
 	nama=raw_input()
-	print(" Alamat Korban: ")
+	print" Alamat Korban: "
 	alamat=raw_input()
-	print(" alasan Kenapa Lo Santet dia: ")
+	print" alasan Kenapa Lo Santet dia: "
 	alasan=raw_input()
 	time.sleep(5)
 	print (" \x1b[1;91m[\xe2\x97\x8f] \x1b[1;92m[!]Semoga Hari mu baik-baik saja \x1b[1;97m ")
